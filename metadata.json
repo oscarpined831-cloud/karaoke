@@ -1,0 +1,6 @@
+{
+  "name": "VoxEngine Zero",
+  "description": "Real-time parametric vocal isolation engine and low-latency DSP mixer with continuous alpha control, live microphone DSP chain, and floating overlay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

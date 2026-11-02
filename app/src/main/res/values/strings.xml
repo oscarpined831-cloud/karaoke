@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">VoxEngine</string>
+    <string name="engine_tagline">Parametric Vocal Isolation &amp; Low-Latency Mixer</string>
+    <string name="vocal_attenuation_alpha">Vocal Suppression Factor (α)</string>
+    <string name="pass_through_desc">0.0: Original Vocals</string>
+    <string name="vocal_guide_desc">0.5: Vocal Guide</string>
+    <string name="full_isolation_desc">1.0: Full Instrumental</string>
+    
+    <string name="mic_gain">Microphone Gain (γ)</string>
+    <string name="mic_reverb">Algorithmic Reverb (Freeverb)</string>
+    <string name="mic_gate">Soft Noise Gate (-45 dBFS)</string>
+    <string name="mic_hpf">Butterworth HPF (85 Hz)</string>
+    <string name="true_peak_limiter">True-Peak Limiter</string>
+    
+    <string name="demo_track_title">Demo Synth Multi-Stem (Center Vocal)</string>
+    <string name="demo_track_rock">Demo Acoustic Session</string>
+    <string name="load_custom_audio">Load Audio File (MP3/WAV/FLAC)</string>
+    <string name="active_stream_status">Audio Stream: Active (48.0 kHz 32-bit Float)</string>
+    <string name="standby_stream_status">Audio Stream: Ready</string>
+    
+    <string name="floating_overlay_btn">Toggle Floating Overlay Window</string>
+    <string name="floating_overlay_permission_hint">Overlay permission required to float over Spotify or YouTube Music</string>
+    
+    <string name="notification_channel_name">VoxEngine Audio DSP Service</string>
+    <string name="notification_channel_desc">Active low-latency audio processing and mixing engine</string>
+    <string name="notification_title">VoxEngine Zero DSP Active</string>
+    <string name="notification_text">Parametric vocal suppression and live microphone mixer running</string>
+    
+    <!-- AI Acoustic & Vocal Coach -->
+    <string name="ai_coach_tab">AI Acoustic Lab</string>
+    <string name="ai_quick_tips">Quick Vocal Tips (Flash-Lite)</string>
+    <string name="ai_deep_analysis">Deep Spectral &amp; Mix Reasoning (Argon)</string>
+    <string name="ai_analyzing">Analyzing audio spectrum and vocal timbre…</string>
+    <string name="ai_response_ready">Analysis Complete</string>
+</resources>

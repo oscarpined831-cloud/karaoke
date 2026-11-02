@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Equalizer spectral bars representing Mid/Side parametric audio filtering -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M24,48h6v24h-6z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M34,36h6v48h-6z" />
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M68,36h6v48h-6z" />
+    <path
+        android:fillColor="#A855F7"
+        android:pathData="M78,48h6v24h-6z" />
+    <!-- Center Microphone Icon representing Live Vocal Capture & Isolation -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,58c3.31,0 6,-2.69 6,-6V38c0,-3.31 -2.69,-6 -6,-6s-6,2.69 -6,6v14c0,3.31 2.69,6 6,6zM63.3,52c0,5.13 -4.17,9.3 -9.3,9.3s-9.3,-4.17 -9.3,-9.3H41c0,6.66 4.96,12.19 11.4,13.15V74h3.2v-8.85c6.44,-0.96 11.4,-6.49 11.4,-13.15h-3.7z" />
+</vector>
