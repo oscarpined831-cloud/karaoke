@@ -19,8 +19,13 @@ jobs:
         java-version: '17'
         cache: 'gradle'
 
-    - name: Permisos para Gradlew
-      run: chmod +x gradlew
+    - name: Garantizar Gradle Wrapper y Permisos
+      run: |
+        if [ ! -f gradlew ]; then
+          echo "[*] gradlew no detectado. Generando wrapper con Gradle del sistema..."
+          gradle wrapper --gradle-version 8.5
+        fi
+        chmod +x gradlew
 
     - name: Compilar APK Debug con C++ Nativo
       run: ./gradlew assembleDebug --no-daemon --stacktrace
